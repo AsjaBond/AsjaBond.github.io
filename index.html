@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя професійна підготовка</title>
+	<link rel="stylesheet" href="css/mystyle.css">
+<script>
+function askName() {
+    let name;
+    do {
+        name = prompt('Введіть своє ім\'я');
+        if (name === null || name === '') {
+            alert("Будь ласка, введіть своє ім'я для продовження.");
+        }
+    } while (name === null || name === '');
+
+    alert("Вітаю, " + name + ", на моїй сторінці!");
+}
+
+window.onload = askName;
+</script>
+</head>
+<body>
+    <div class="main">
+    		<h1 class="animated-text">Мій напрямок професійної підготовки</h1>
+
+    		<p><em>Фахівець з розробки програмного забезпечення</em> - це професія, яка вимагає глибоких знань у програмуванні та розробці програм. Вони створюють, тестують та підтримують програми, працюючи над різними етапами життєвого циклу розробки ПЗ.</p>
+    		<p>Серед їхніх навичок - мови програмування (такі як Java, Python, C++), розуміння алгоритмів та структур даних, архітектура програмного забезпечення та вміння працювати з різними платформами. Фахівці з розробки програмного забезпечення зазвичай мають аналітичний склад розуму, креативний підхід до вирішення проблем та вміння працювати в команді для досягнення спільних цілей.</p>
+    		<p><a href="Software Developer.html" title="Software Developer">Детальніше тут</a></p>
+   		<a title="Натисніть, щоб дізнатися більше про Software Developer" href="https://www.topresume.com/career-advice/software-developer-job-description" target="_blank">
+        	<center><img src="img/image_dev.jpg" alt="Зображення" width="60%"></center>
+    </a>
+
+	
+    <h2>Час, виділений для підготовки до вступу на тиждень</h2>
+    <table>
+        <tbody><tr>
+            <th>№</th>
+            <th>Назва предмету на НМТ</th>
+            <th>Кількість годин</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Математика</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Англійська мова</td>
+            <td>6</td>
+        </tr>
+	<tr>
+            <td>3</td>
+            <td>Українська мова</td>
+            <td>6</td>
+        </tr>
+    </tbody></table>
+</div>
+</body></html>
